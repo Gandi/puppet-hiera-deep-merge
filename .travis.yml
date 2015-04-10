@@ -1,0 +1,16 @@
+language: ruby
+
+rvm:
+  - 1.9.3
+
+script:
+  - bundle exec rake spec
+
+branches:
+  only:
+    - master
+env:
+  - PUPPET_VERSION=2.7.26 HIERA_PUPPET_VERSION=1.0.0rc1
+  - PUPPET_VERSION=2.7.26 HIERA_PUPPET_VERSION=1.0.0
+  - PUPPET_VERSION=3.7.5
+
