@@ -1,6 +1,6 @@
 # Puppet-Hiera deep merge on demand
 
-[![Build Status](https://travis-ci.org/gandi/puppet-hiera-deep-merge.svg?branch=master)](https://travis-ci.org/gandi/puppet-hiera-deep-merge)
+[![Build Status](https://travis-ci.org/Gandi/puppet-hiera-deep-merge.svg?branch=master)](https://travis-ci.org/Gandi/puppet-hiera-deep-merge)
 
 ## Why ?
 
