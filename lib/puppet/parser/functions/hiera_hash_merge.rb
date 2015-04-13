@@ -7,7 +7,7 @@ module Puppet::Parser::Functions
         args = args[0]
       end
 
-      raise(Puppet::ParseError, "Please supply a 1 to 3 parameters") if args.length > 3
+      raise(Puppet::ParseError, "Please supply 1 to 3 parameters") if args.length > 3
 
       key = args[0]
       default = args[1]
